@@ -176,13 +176,19 @@ body {
   }
 
   .hero h1 {
-    font-size: 36px;
+    font-size: 40px;
+    line-height: 1.2;
   }
 
   .hero p {
     font-size: 18px;
   }
+
+  .hero h1 {
+    white-space: pre-line;
+  }
 }
+
 
 
 .countdown-section {
@@ -273,6 +279,7 @@ body {
 @media (max-width: 480px) {
   .countdown-section {
     padding: 40px 10px;
+    text-align: center; /* center everything */
   }
 
   .countdown-title {
@@ -281,13 +288,23 @@ body {
   }
 
   .countdown {
+    display: flex;
     flex-direction: column;
     gap: 20px;
+    align-items: center;     
+    max-width: 300px;        
+    margin: 0 auto;        
+  }
+
+  .count-item {
+    text-align: center;
+    width: 100%;     
+    max-width: 150px;         
   }
 
   .count-item span {
-    font-size: 28px;
-    padding: 12px 15px;
+    font-size: 40px;
+    padding: 20px 15px;
   }
 
   .count-item p {
@@ -378,8 +395,8 @@ body {
   }
 
   .gallery-item img {
-    width: 150px;
-    height: 200px;
+    width: 250px;
+    height: 300px;
   }
 }
 
@@ -528,8 +545,8 @@ body {
   }
 
   .info-icon {
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
   }
 
   .info-details h3 {
