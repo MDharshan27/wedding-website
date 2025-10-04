@@ -1,7 +1,7 @@
 import "./../App.css";
-import venue from "./../assets/wedding-ceremony.png";
-import time from "./../assets/cheers.png";
-import date from "./../assets/wedding-day.png";
+import venue from "./../assets/venue.png";
+import time from "./../assets/time.png";
+import date from "./../assets/date.png";
 
 function InfoSection() {
   return (
